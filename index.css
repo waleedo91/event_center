@@ -3,13 +3,6 @@
   font-family: sans-serif;
 }
 
-body {
-  background-image: url(images/compet_esport.jpg);
-  background-repeat: none;
-  background-size: cover;
-  z-index: 3;
-}
-
 #nav-image {
   height: 70px;
   position: relative;
@@ -41,34 +34,6 @@ body {
   color: blue;
 }
 
-#intro-heading {
-  background-color: rgba(240, 240, 240, 0.5);
-  width: 50%;
-  margin: 0 auto;
-}
-
-#intro {
-  z-index: 1;
-  color: black;
-  margin: 60px auto;
-  width: 100%;
-  font-size: 70px;
-  text-align: center;
-}
-
-#main-section {
-  position: fixed;
-  top: 100px;
-}
-
-#date {
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 10px;
-  font-size: 25px;
-}
-
 #header {
   background-color: lightblue;
   border: 1px solid black;
@@ -78,6 +43,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 #footer-section {

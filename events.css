@@ -1,0 +1,63 @@
+body {
+  min-height: 100vh;
+}
+
+/* #event-section {
+  position: relative;
+  margin-top: 150px;
+  text-align: center;
+  overflow-y: auto;
+}
+
+#calender-table {
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 60px;
+} */
+
+h2 {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendar {
+  color: white;
+  background-color: rgb(38, 27, 121);
+  max-width: fit-content;
+}
+
+table {
+  text-align: center;
+}
+td {
+  cursor: default;
+  font-size: large;
+}
+
+#overwatch-try {
+  background-image: url("./images/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#marvel-try {
+  background-image: url("./images/download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
