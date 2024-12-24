@@ -1,5 +1,5 @@
 body {
-  min-height: 100vh;
+  min-height: 110vh;
 }
 
 /* #event-section {
@@ -38,11 +38,14 @@ h2 {
   color: white;
   background-color: rgb(38, 27, 121);
   max-width: fit-content;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 table {
   text-align: center;
 }
+
 td {
   cursor: default;
   font-size: large;
@@ -55,8 +58,19 @@ td {
   background-position: center;
 }
 
+.date-text {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 #marvel-try {
   background-image: url("./images/download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#cod-try {
+  background-image: url("./images/vrpUHxBJ8AX9zLT6MzbQrd.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
