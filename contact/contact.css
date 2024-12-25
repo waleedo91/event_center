@@ -1,0 +1,25 @@
+body {
+  height: 115vh;
+}
+
+#contact-section {
+  margin-top: 100px;
+}
+
+#flex-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-flex {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-button {
+  float: right;
+}

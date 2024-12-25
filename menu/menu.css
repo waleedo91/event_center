@@ -1,0 +1,22 @@
+body {
+  height: 180vh;
+}
+
+#menu-page {
+  position: relative;
+  top: 10rem;
+}
+
+.menu-right {
+  float: right;
+  margin-right: 15rem;
+}
+
+.menu-left {
+  float: left;
+  margin-left: 15rem;
+}
+
+.item-photo {
+  height: 100% !important;
+}

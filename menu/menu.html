@@ -5,46 +5,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./menu.css" />
     <link rel="stylesheet" href="../index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Menu</title>
   </head>
   <body>
-    <header id="header">
-      <nav id="navigation">
-        <ul id="nav-bar">
-          <li>
-            <img
-              src="../images/esports-logo-template-for-gaming-team-or-tournament-vector.jpg"
-              alt="esport logo"
-              id="nav-image"
-            />
-          </li>
-          <li class="list-item">
-            <a href="/" id="home" class="nav-link">Home</a>
-          </li>
-          <li class="list-item">
-            <a href="../events/events.html" id="events" class="nav-link"
-              >Events</a
-            >
-          </li>
-          <li class="list-item">
-            <a href="../menu/menu.html" id="food" class="nav-link">Food Menu</a>
-          </li>
-          <li class="list-item">
-            <a href="../location/location.html" id="location" class="nav-link"
-              >Find Us</a
-            >
-          </li>
-          <li class="list-item">
-            <a href="../contact/contact.html" id="contact" class="nav-link"
-              >Contact Us</a
-            >
-          </li>
-        </ul>
+    <header id="nav-header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" id="nav-header">
+          <img
+            src="../images/esports-logo-template-for-gaming-team-or-tournament-vector.jpg"
+            alt="e-sports logo"
+            id="site-image"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../events/events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../menu/menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../location/location.html">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact/contact.html">Contact Us</a>
+              </li>
+          </div>
+        </div>
       </nav>
     </header>
 
-    <main></main>
+    <main id="menu-page">
+      <div class="card mb-3 menu-card menu-left" style="max-width: 750px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="../images/lunch-dinner_burgers_bacon-cheeseburger.jpg"
+              class="img-fluid rounded-start item-photo"
+              alt="cheeseburger"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Cheeseburger</h5>
+              <p class="card-text">
+                Stabilize your cravings and boost your mana with our juicy
+                cheeseburger or hamburger! Stacked with fresh crispy lettuce,
+                ripe tomatoes, onions and juicy beef patty with melted cheese
+                on-top.
+              </p>
+              <p><strong>$6.99</strong></p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Make it a meal with a fry and drink for only $2.99!</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 menu-card menu-right" style="max-width: 750px">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Hot Dog</h5>
+              <p class="card-text">
+                Chicago style, plain, or just mustard and ketchup. We won't
+                judge! Chicago style hot dog comes with relish, pickles,
+                tomatoes, onions, mustard and sport peppers. All built to
+                perfection on a poppy seed bun!
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Make it a meal with a fry and drink for only $2.99!</small
+                >
+              </p>
+              <p><strong>$3.99</strong></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="../images/Chicago-style_hot_dog_2.jpg"
+              class="img-fluid rounded-start item-photo"
+              alt="cheeseburger"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 menu-card menu-left" style="max-width: 750px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="../images/Baked-French-Fries-Recipe-1200.jpg"
+              class="img-fluid rounded-start item-photo"
+              alt="cheeseburger"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">French Fries</h5>
+              <p class="card-text">
+                Idaho potatoes cut into perfection! Fried to a crisp and salted
+                for a little extra taste. Boost your gaming skills with the
+                greatest thing created on planet earth or whatever planet you're
+                from! Just make sure to wash your hands before playing!
+              </p>
+              <p><strong>$2.99</strong></p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Make it a cheese fry for $0.99 or loaded fries for
+                  $4.99</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 menu-card menu-right" style="max-width: 750px">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Hot Dog</h5>
+              <p class="card-text">
+                Quench your thirst with our wide selection of drinks. Coke or
+                pepsi products or get yourself an energy drink to keep you in
+                the game or in life in general!
+              </p>
+              <p><strong>$1.99 / $3.99 / $4.99</strong></p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Fountain drink $1.99 / Energy Drinks $3.99 / Monster
+                  $4.99</small
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="../images/download (1).jpg"
+              class="img-fluid rounded-start item-photo"
+              alt="cheeseburger"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
 
     <footer id="footer-section">
       <h2>&copy; E-Sport Community</h2>

@@ -1,0 +1,12 @@
+body {
+  height: 120vh;
+}
+
+.location-section {
+    margin-top: 100px;
+
+}
+
+#location-container {
+    margin-left: 500px;
+}
