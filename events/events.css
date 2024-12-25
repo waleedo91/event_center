@@ -1,0 +1,89 @@
+body {
+  min-height: 145vh;
+  background-image: url("../images/images\ \(2\).jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar {
+  color: white;
+  background-color: rgba(38, 27, 121, 0.7);
+  max-width: fit-content;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 120px;
+}
+
+table {
+  text-align: center;
+}
+
+tr {
+  cursor: default;
+  font-size: 15px;
+  height: 5rem;
+}
+
+#overwatch-try {
+  background-image: url("../images/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.date-text {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#marvel-try {
+  background-image: url("../images/download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#cod-try {
+  background-image: url("../images/vrpUHxBJ8AX9zLT6MzbQrd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.event-list {
+  width: 75%;
+  font-size: 10px;
+  list-style: none;
+}
+
+.cod-schedule {
+  background-color: rgb(48, 196, 119);
+}
+
+.ow-schedule {
+  background-color: rgb(13, 130, 130);
+}
+
+.marvel-schedule {
+  background-color: rgb(93, 9, 62);
+}
+
+#champion-schedule {
+  background-image: url("../images/dota-2-tournament-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

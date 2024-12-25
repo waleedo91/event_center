@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="events.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="/events/events.css" />
     <title>Events</title>
   </head>
   <body>
@@ -13,7 +13,7 @@
         <ul id="nav-bar">
           <li>
             <img
-              src="./images/esports-logo-template-for-gaming-team-or-tournament-vector.jpg"
+              src="../images/esports-logo-template-for-gaming-team-or-tournament-vector.jpg"
               alt="esport logo"
               id="nav-image"
             />
@@ -22,16 +22,22 @@
             <a href="/" id="home" class="nav-link">Home</a>
           </li>
           <li class="list-item">
-            <a href="events.html" id="events" class="nav-link">Events</a>
+            <a href="../events/events.html" id="events" class="nav-link"
+              >Events</a
+            >
           </li>
           <li class="list-item">
-            <a href="food.html" id="food" class="nav-link">Food Menu</a>
+            <a href="../menu/menu.html" id="food" class="nav-link">Food Menu</a>
           </li>
           <li class="list-item">
-            <a href="location.html" id="location" class="nav-link">Find Us</a>
+            <a href="../location/location.html" id="location" class="nav-link"
+              >Find Us</a
+            >
           </li>
           <li class="list-item">
-            <a href="contact.html" id="contact" class="nav-link">Contact Us</a>
+            <a href="../contact/contact.html" id="contact" class="nav-link"
+              >Contact Us</a
+            >
           </li>
         </ul>
       </nav>
@@ -107,43 +113,58 @@
                 </td>
                 <td>
                   18
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                  <ul class="event-list">
+                    <li class="cod-schedule">
+                      8am-12pm Call of duty (Round 1)
+                    </li>
+                    <li class="ow-schedule">1pm-3pm Overwatch 2 (Round 1)</li>
+                    <li class="marvel-schedule">
+                      4pm-7pm Marvel Rivals (Round1)
+                    </li>
                   </ul>
                 </td>
                 <td>
                   19
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                  <ul class="event-list">
+                    <li class="cod-schedule">
+                      8am-12pm Call of duty (Round 2)
+                    </li>
+                    <li class="ow-schedule">1pm-3pm Overwatch 2 (Round 2)</li>
+                    <li class="marvel-schedule">
+                      4pm-7pm Marvel Rivals (Round 2)
+                    </li>
                   </ul>
                 </td>
                 <td>
                   20
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                  <ul class="event-list">
+                    <li class="cod-schedule">
+                      8am-12pm Call of duty (Semi-finals)
+                    </li>
+                    <li class="ow-schedule">
+                      1pm-3pm Overwatch 2 (Semi-finals)
+                    </li>
+                    <li class="marvel-schedule">
+                      4pm-7pm Marvel Rivals (Semi-finals)
+                    </li>
                   </ul>
                 </td>
                 <td>
                   21
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                  <ul class="event-list">
+                    <li class="cod-schedule">8am-12pm Call of duty (Finals)</li>
+                    <li class="ow-schedule">1pm-3pm Overwatch 2 (Finals)</li>
+                    <li class="marvel-schedule">
+                      4pm-7pm Marvel Rivals (Finals)
+                    </li>
                   </ul>
                 </td>
-                <td>
+                <td id="champion-schedule">
                   22
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
+                  <p class="date-text">
+                    Champion Ceremony! <br />
+                    10am-2pm
+                  </p>
                 </td>
               </tr>
               <tr>
@@ -159,77 +180,6 @@
           </table>
         </div>
       </div>
-      <!-- <div id="calender">
-        <div>
-          <h2 id="event-header">Events!</h2>
-          <h3>February 2025</h3>
-          <table id="calender-table">
-            <tr>
-              <th>Sunday</th>
-              <th>Monday</th>
-              <th>Tuesday</th>
-              <th>Wednesday</th>
-              <th>Thursday</th>
-              <th>Friday</th>
-              <th>Saturday</th>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-              <td>6</td>
-              <td>7</td>
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td>10</td>
-              <td>11</td>
-              <td>12</td>
-              <td>13</td>
-              <td>14</td>
-              <td>
-                15
-                <p>Overwatch  2 <br>Tryouts</p>
-              </td>
-            </tr>
-            <tr>
-              <td>16
-                <p>Marvel Rivals <br> Tryouts</p>
-              </td>
-              <td>17
-                <p>Call of Duty <br> Tryouts</p>
-              </td>
-              <td>18
-                <p>League of Legends <br> Tryouts</p>
-              </td>
-              <td>19</td>
-              <td>20</td>
-              <td>21</td>
-              <td>22</td>
-            </tr>
-            <tr>
-              <td>23</td>
-              <td>24</td>
-              <td>25</td>
-              <td>26</td>
-              <td>27</td>
-              <td>28</td>
-              <td></td>
-            </tr>
-          </table>
-        </div>
-      </div> -->
     </main>
 
     <footer id="footer-section">
